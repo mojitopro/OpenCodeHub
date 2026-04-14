@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.OpenCodeHub" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#FF4ECDC4</item>
+        <item name="colorPrimaryDark">#FF1A1A2E</item>
+        <item name="colorAccent">#FF00D9FF</item>
+    </style>
+</resources>

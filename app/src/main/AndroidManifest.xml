@@ -12,7 +12,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_launcher"
         android:label="OpenCode Hub"
         android:theme="@style/Theme.OpenCodeHub">
 
@@ -38,9 +38,7 @@
                 android:resource="@xml/accessibility_service_config" />
         </activity>
 
-        <service
-            android:name=".ADBService"
-            android:exported="false" />
+        
 
     </application>
 </manifest>

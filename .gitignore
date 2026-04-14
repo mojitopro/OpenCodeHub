@@ -5,7 +5,6 @@ app/build/
 *.keystore
 local.properties
 .DS_Store
-*.log
 *.iml
 .idea/
 *.swp

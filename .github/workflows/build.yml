@@ -27,11 +27,10 @@ jobs:
         mv cmdline-tools latest
         yes | $HOME/android-sdk/cmdline-tools/latest/bin/sdkmanager --licenses
         $HOME/android-sdk/cmdline-tools/latest/bin/sdkmanager "platforms;android-33" "build-tools;33.0.0"
+        echo "sdk.dir=$HOME/android-sdk" > $GITHUB_WORKSPACE/local.properties
     
     - name: Build with Gradle
       run: |
-        export ANDROID_HOME=$HOME/android-sdk
-        export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
         chmod +x gradlew
         ./gradlew assembleDebug
     

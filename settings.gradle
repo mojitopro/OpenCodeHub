@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    plugins {
+        id 'com.android.application' version '8.1.0'
+    }
+}
+
+rootProject.name = 'OpenCodeHub'
+include ':app'

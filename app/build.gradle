@@ -18,10 +18,10 @@ allprojects {
 apply plugin: 'com.android.application'
 
 android {
-    namespace 'com.opencode.hub'
+    namespace 'com.opencode.control'
     compileSdkVersion 33
     defaultConfig {
-        applicationId "com.opencode.hub"
+        applicationId "com.opencode.control"
         minSdkVersion 24
         targetSdkVersion 33
         versionCode 1

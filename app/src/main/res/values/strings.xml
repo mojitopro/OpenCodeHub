@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">OpenCode Hub</string>
+    <string name="app_name">OpenCode Control</string>
     <string name="accessibility_description">Servicio de control para OpenCode Hub. Permite automatizar interacciones con otras apps.</string>
 </resources>

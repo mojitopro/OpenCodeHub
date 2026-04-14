@@ -21,14 +21,14 @@ jobs:
     - name: Setup Android SDK
       uses: android-actions/setup-android@v2
     
-    - name: Build APK
-      run: |
-        cd OpenCodeHub
-        chmod +x ../gradle-8.5/bin/gradle
-        ../gradle-8.5/bin/gradle assembleDebug
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
+    
+    - name: Build with Gradle
+      run: ./gradlew assembleDebug
     
     - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
         name: opencode-hub.apk
-        path: OpenCodeHub/app/build/outputs/apk/debug/app-debug.apk
+        path: app/build/outputs/apk/debug/app-debug.apk

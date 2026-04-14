@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:text="Ɱօلìէօ Hub"
         android:textColor="#00d9ff"
-        android:textSize="28"
+        android:textSize="28sp"
         android:gravity="center"
         android:padding="20dp" />
 
@@ -47,7 +47,7 @@
             android:layout_height="wrap_content"
             android:text=">>> Hub iniciado\n"
             android:textColor="#00ff00"
-            android:textSize="12"
+            android:textSize="12sp"
             android:fontFamily="monospace" />
 
     </ScrollView>
